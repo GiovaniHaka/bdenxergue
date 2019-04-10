@@ -1,0 +1,88 @@
+
+Gimi_2@GiovaniAsus MINGW64 ~
+$ cd desktop
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop
+$ mkdir enxergue(i)
+bash: syntax error near unexpected token `('
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop
+$ mkdir FSI Project
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop
+$ cd fsi
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop/fsi
+$ touch index.html
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop/fsi
+$ touch style.css
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop/fsi
+$ start index.html
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop/fsi
+$ code .
+bash: code: command not found
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop/fsi
+$ code.
+bash: code.: command not found
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop/fsi
+$ git init
+Initialized empty Git repository in C:/Users/Gimi_2/Desktop/FSI/.git/
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop/fsi (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Gimi_2/Desktop/FSI/.git/
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop/fsi (master)
+$ git add .
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop/fsi (master)
+$ git config --global user.name "GiovaniHaka"
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop/fsi (master)
+$ git config --global user.email haka.giovani@gmail.com
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop/fsi (master)
+$ git commit "criar front do site"
+error: pathspec 'criar front do site' did not match any file(s) known to git
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop/fsi (master)
+$ git commit -m "criar front do site"
+[master (root-commit) de37466] criar front do site
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 style.css
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop/fsi (master)
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop/fsi (master)
+$ git remote add origin https://github.com/GiovaniHaka/ProjetoFSI.git
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop/fsi (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 235 bytes | 117.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/GiovaniHaka/ProjetoFSI.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop/fsi (master)
+$ code .
+bash: code: command not found
+
+Gimi_2@GiovaniAsus MINGW64 ~/desktop/fsi (master)
+$

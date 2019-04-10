@@ -1,0 +1,112 @@
+/* Banco de Dados: */
+
+CREATE TABLE Lente (
+    ID Lente INTEGER PRIMARY KEY,
+    ID Esferico INTEGER,
+    ID Cilindrico INTEGER,
+    ID Eixo INTEGER,
+    ID DP INTEGER,
+    Tipo de Lente INTEGER,
+    Olho INTEGER,
+    ID Empresa INTEGER
+);
+
+CREATE TABLE Empresa (
+    ID Empresa INTEGER PRIMARY KEY,
+    Nome VARCHAR,
+    Telefone CHAR,
+    Email VARCHAR,
+    Avaliacao INTEGER,
+    Atendimento VARCHAR,
+    Data Admissao DATE,
+    Ativo CHAR,
+    ID Pagamento INTEGER,
+    ID Endereco INTEGER
+);
+
+CREATE TABLE Esferico (
+    ID Esferico INTEGER PRIMARY KEY,
+    Valor INTEGER,
+    Preco MONEY
+);
+
+CREATE TABLE Cilindrico (
+    ID Cilindrico INTEGER PRIMARY KEY,
+    Valor INTEGER,
+    Preco MONEY
+);
+
+CREATE TABLE Eixo (
+    ID Eixo INTEGER PRIMARY KEY,
+    Valor INTEGER,
+    Preco MONEY
+);
+
+CREATE TABLE DP (
+    ID DP INTEGER PRIMARY KEY,
+    Valor INTEGER,
+    Preco MONEY
+);
+
+CREATE TABLE Tipo de Lente (
+    ID Tipo Lente INTEGER PRIMARY KEY,
+    Tipo INTEGER,
+    Preco MONEY
+);
+
+CREATE TABLE Pagamento (
+    ID Pagamento INTEGER PRIMARY KEY,
+    Tipo VARCHAR
+);
+
+CREATE TABLE Olho (
+    ID Olho INTEGER PRIMARY KEY,
+    Tipo VARCHAR
+);
+
+CREATE TABLE Endereco (
+    ID Endereco INTEGER PRIMARY KEY,
+    País VARCHAR,
+    Estado VARCHAR,
+    Cidade VARCHAR,
+    Bairro VARCHAR,
+    Rua VARCHAR,
+    Numero INTEGER,
+    Complemento VARCHAR
+);
+ 
+ALTER TABLE Lente ADD CONSTRAINT Esferico
+    FOREIGN KEY (ID Esferico)
+    REFERENCES Esferico (ID Esferico);
+ 
+ALTER TABLE Lente ADD CONSTRAINT Cilindrico
+    FOREIGN KEY (ID Cilindrico)
+    REFERENCES Cilindrico (ID Cilindrico);
+ 
+ALTER TABLE Lente ADD CONSTRAINT Eixo
+    FOREIGN KEY (ID Eixo)
+    REFERENCES Eixo (ID Eixo);
+ 
+ALTER TABLE Lente ADD CONSTRAINT DP
+    FOREIGN KEY (ID DP)
+    REFERENCES DP (ID DP);
+ 
+ALTER TABLE Lente ADD CONSTRAINT Tipo de Lente
+    FOREIGN KEY (Tipo de Lente)
+    REFERENCES Tipo de Lente (ID Tipo Lente);
+ 
+ALTER TABLE Lente ADD CONSTRAINT Olho
+    FOREIGN KEY (Olho)
+    REFERENCES Olho (ID Olho);
+ 
+ALTER TABLE Lente ADD CONSTRAINT Empresa
+    FOREIGN KEY (ID Empresa)
+    REFERENCES Empresa (ID Empresa);
+ 
+ALTER TABLE Empresa ADD CONSTRAINT Endereco
+    FOREIGN KEY (ID Endereco)
+    REFERENCES Endereco (ID Endereco);
+ 
+ALTER TABLE Empresa ADD CONSTRAINT Pagamento
+    FOREIGN KEY (ID Pagamento)
+    REFERENCES Pagamento (ID Pagamento);
