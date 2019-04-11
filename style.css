@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+}
+
+.banner{
+    background-color:dodgerblue;
+}
+
+header{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Tabela da receita */
+
+.receita{
+    width: 50vw;
+    display: flex;
+    margin-left: 315px;  
+    background-color: white;
+
+}
+
+.olhod{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.olhoe{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.buscarre{
+    border-radius: 5px;
+}

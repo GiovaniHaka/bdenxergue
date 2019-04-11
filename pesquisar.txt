@@ -1,0 +1,14 @@
+1-como criar input para o ''material'', ''foco'' e ''adicional''
+
+2-como integrar o banco de dados
+
+
+fazer:
+1-formulario da empresa
+
+
+
+SITE:
+gerar inputs de material, foco,etc
+arrumar a disposição da div e os espaços entre os elementos
+tentar: centralizar botão e colocar borda na receita(main)
