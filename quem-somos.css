@@ -1,0 +1,100 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #FFFFFF;
+    background: #3392f7;
+    height: 40px;
+    
+}
+body{
+    background: #f8f8f8;
+    margin: 0 0 100px;
+    padding: 25px;
+}
+footer{
+    background-color: #3392f7;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #FFFFFF;
+    font-family: "Segoe UI";
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+}
+/*------------------------------------------------------------------------------------------------*/
+span{
+    color: #FFFFFF;
+    font-family: "Virtual DJ Regular";
+    font-size: 24px;
+    font-weight: 100;
+    padding-left: 10px;
+}
+
+p, li{
+    font-family: "Segoe UI";
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 200;
+    color: gray;
+}
+h2{
+    font-family: "Century Gothic";
+    font-weight: 100; /*Define a expessura da fonte, 100 é o mínimo*/
+    font-size: 32px;
+}
+hr{
+    width: 98%;
+    background: gray;
+    size: 1;
+}
+/*------------------------------------------------------------------------------------------------*/
+@keyframes mudarCor{/*Evento que define a cor inicial e final da animação*/
+    from {background-color: #3392f7;}
+    to {background-color: #83baf5;}
+}
+
+/*Botões do header*/
+.buttonHeader{
+    background: #3392f7; /*Azul mais claro que a cor do cabeçalho*/
+    margin-right: -4px; /*Diminiu ao máximo a distância entre os botões*/
+    border: #FFFFFF;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    font-family: "Century Gothic";
+    color: #FFFFFF;
+    font-weight: 100;
+}
+.buttonHeader:hover{ /*Quando o mouse estiver sobre o botão*/
+    animation-name: mudarCor; /*Evento*/
+    animation-duration: 0.5s;
+    background: #83baf5; /*Mantém a cor após o final da animação*/
+}
+
+/*Botões do body*/
+.buttonBody{
+    background: #3392f7; /*Azul mais claro que a cor do cabeçalho*/
+    border: #FFFFFF 1px solid;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    font-family: "Century Gothic";
+    color: #FFFFFF;
+    font-weight: 100;
+}
+.buttonBody:hover{ /*Quando o mouse estiver sobre o botão*/
+    animation-name: mudarCor; /*Evento*/
+    animation-duration: 0.5s;
+    background: #83baf5; /*Mantém a cor após o final da animação*/
+    cursor: pointer;
+}
