@@ -1,0 +1,337 @@
+body{
+    margin: 0;
+    background-color: white; /* #F8EFFB*/
+}
+
+.logo{
+    width:40%;
+    margin-left: 60px;
+}
+
+.banner{
+    background-color:#AC58FA;
+}
+
+header{
+    background-color:#AC58FA;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    height: 100px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.tutorial{
+    margin: auto;
+    width: 70vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tutorial_etapa{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #BDBDBD;
+    background-color: #F8EFFB;
+    width: 90vw;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 10px;
+}
+
+.titulocentral{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+/* Tabela da receita */
+.receita{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #BDBDBD;
+    margin: auto;
+    width: 50vw;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.imagemolho{
+    width: 35%
+}
+
+.olhod{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    flex-wrap: wrap;
+}
+
+.olhoe{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    flex-wrap: wrap;
+}
+
+
+.input{
+    width: 300px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.select{
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button{
+    border-radius: 5px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.resultado{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #BDBDBD;
+    margin: auto;
+    border-radius: 10px;
+    width: 70vw;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.selecao{
+    margin: auto;
+    width: 50vw;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.selecionado{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #BDBDBD;
+    width: 200px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.table{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cadastro_empresai{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #BDBDBD;
+    width: 400px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    
+}
+    
+.cadastro_empresai_1{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cadastro_empresai_2{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.textoquemsomos{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #BDBDBD;
+    margin: auto;
+    width: 70vw;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    padding: 15px;
+}
+
+.textocomofunciona{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #BDBDBD;
+    margin: auto;
+    width: 70vw;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    padding: 15px;
+
+}
+
+.login{
+    margin: auto;
+    width: 50vw;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buscabar{
+    border: none;
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+
+.contato{
+    margin: auto;
+    width: 50vw;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.maps{
+    width: 800px;
+    border-radius: 5px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.footer_main{
+    margin: auto;
+    width: 80vw;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.coluna_footer{
+    width: 30%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    flex-wrap: wrap;
+}
+
+.footer_logo{
+    width: 25%;
+}
+
+.rodape{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+.footer{ 
+    display: flex;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #AC58FA;
+    font-family: 'Montserrat', sans-serif;
+  
+}
